@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: nikunjdevcloud/wanderlust_3_tier:Frontend
+        image: nikunjdevcloud/wanderlust:Frontend
         ports:
         - containerPort: 5173
 ---
