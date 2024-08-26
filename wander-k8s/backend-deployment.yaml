@@ -18,8 +18,8 @@ spec:
         ports:
         - containerPort: 5000
         env:
-        - name: MONGO_URL
-          value: mongodb://mongo:27017/wanderlust
+        - name: MONGODB_URI
+          value: mongodb://mongo/wanderlust
 ---
 apiVersion: v1
 kind: Service
