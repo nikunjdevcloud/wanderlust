@@ -33,7 +33,8 @@ spec:
   selector:
     app: mongo
   ports:
-    - protocol: TCP
+  - name: mongo
+      protocol: TCP
       port: 27017
       targetPort: 27017
   type: ClusterIP
